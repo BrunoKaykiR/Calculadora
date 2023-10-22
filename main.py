@@ -39,7 +39,7 @@ while True:
         case _:
             print('ERROR! Opção Inválida!')
 
-    stop = input('Deseja realizar outra operação? (Y/N)').upper().strip()
+    stop = input('Deseja realizar outra operação? (Y/N) ').upper().strip()
 
     match stop:
         case 'Y':
