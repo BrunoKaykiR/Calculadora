@@ -1,6 +1,6 @@
 #### CALCULADORA ####
 
-from Calculadora import soma, sub, multi, divi
+from Calculadora import * #soma, sub, multi, divi
 from time import sleep
 
 #LAÇO DE LOOP
