@@ -3,12 +3,15 @@
 from Calculadora import soma, sub, multi, divi
 from time import sleep
 
-
+#LAÇO DE LOOP
 while True:
+    #APRESENTAÇÃO
     print('\n\n\t\t\t\t\tSeja Bem-Vindo a Calculadora')
 
+    #MENU DE OPÇÕES
     operation = input('Digite o símbolo da operação:\n[+] Soma\n[-] Subtração\n[*] Multiplicação\n[/] Divisão\n[>_] Sair\n').upper().strip()
 
+    #LÓGICA DO PROGRAMA
     match operation:
         case '+':
             number1 = float(input('Insira o primeiro número: '))
@@ -39,6 +42,7 @@ while True:
         case _:
             print('ERROR! Opção Inválida!')
 
+    #ESCOLHA PARA A REPETIÇÃO
     stop = input('Deseja realizar outra operação? (Y/N) ').upper().strip()
 
     match stop:
