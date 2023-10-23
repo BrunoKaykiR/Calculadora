@@ -1,4 +1,4 @@
-#### CALCULADORA #####
+#### CALCULADORA ####
 
 from Calculadora import soma, sub, multi, divi
 from time import sleep
